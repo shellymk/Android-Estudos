@@ -79,7 +79,17 @@ nav a
 {
     text-decoration: none;
     margin-right: 20px;
-    color: beige;   
+    color: rgb(226, 226, 221);
+    box-shadow: 5px;
+   
+}
+nav a:hover
+{
+    background-color: rgba(248, 248, 248, 0.712);
+    color: #185feef5;
+    padding: 9px;
+    box-shadow: 30px;
+
 }
 .geral
 {
@@ -198,11 +208,27 @@ img
 }
 .dan-droids
 {
-    text-align: center;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;  /* opcional, para centralizar verticalmente se precisar */
+}
+.dan-droids img
+{
+   
+   max-width: 100%;
+   height: auto;
 }
 .irina-blok
 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.irina-blok img
+{
+    max-width: 100%;
+   height: auto;
+    
 }
 .bugdroid
 {
