@@ -1,0 +1,25 @@
+{
+  "name": "android-estudos",
+  "version": "1.0.0",
+  "description": "Este projeto foi desenvolvido como parte de um desafio proposto no Curso em Vídeo (Android com HTML E CSS), com o objetivo de praticar os conhecimentos aprendidos ao longo do curso.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": 
+  {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1"
+  }
+   "browserslist": 
+   [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
+}
+}
